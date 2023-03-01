@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FUNCIONES</title>
+</head>
+<body>
+	<script>
+
+	/*FUNCION SIN PARAMETROS
+    function saludo(){
+	document.write("ADIOS");
+					}
+
+	 saludo();*/
+
+	//CON PARAMETROS 
+	/*function saludo(nombre){
+ 	document.write("Hola "+nombre);
+ }*/
+
+ /*saludo("430");*/
+
+ //funcion suma sin retorno
+    /*function suma(numero1, numero2){
+	var numero1 = numero1;
+	var numero2 = numero2
+	document.write(numero1 + numero2);
+ }
+ suma(10,20);*/
+
+ //funcion suma con retorno
+   /* function suma(numero1, numero2){
+	var numero1 = numero1;
+	var numero2 = numero2
+	return numero1 + numero2;
+
+ }
+
+ document.write(suma(10,40));*/
+
+ // OTRA FORMA FUNCION SUMA CON RETORNO.
+ /*var suma = function(numero1,numero2){
+ 	var numero1 = numero1
+ 	var numero2 = numero2
+ 	return numero1 + numero2;
+ }
+
+ document.write(suma(10,20));
+ document.write("<br>")
+ document.write(suma(1,9));*/
+
+ function numeroMayor(num1,num2){
+ 	if(num1 > num2){
+ 		nM=num1;
+ 	}
+      else{
+      	nM=num2;
+      }
+      document.write("EL NUMERO MAYOR ES:"+nM);
+  }
+
+  numeroMayor(10,20);
+	</script>
+</body>
+</html>

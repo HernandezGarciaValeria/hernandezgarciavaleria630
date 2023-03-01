@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>variables</title>
+</head>
+<body>
+
+	<script>
+/*
+		var numeros=[9,8,4];
+		x=0;
+		acum=0;
+		do{
+			acum=acum+ numeros[x];
+			x++
+		}while(x< numeros.length);
+
+		document.write(acum);*/
+
+		/*var numeros=[9,8,4];
+		x=0;
+		y=0;
+		while(x<numeros.length)
+		{
+			if(numeros[x] >= 5)
+		{
+			y++
+		}
+		x++
+	}	
+	document.write("Numeros mayores a 5:"+y);*/
+
+	//numeros=[5,4,10];
+	/*var i=4;
+	if(i%2==0)
+	{
+		document.write("El numero es par");
+	}
+	else
+	{
+		document.write("el numero es impart");
+	}*/
+	/*var numeros=[5,4,10];
+	par=0;
+	impart=0;
+	x=0;
+	while( x < numeros.length)
+	{
+	if(numeros[x]%2==0)
+		par++;
+	else
+		impart++;
+		x++;
+	}
+		document.write(par);
+		document.write(impart);*/
+
+	var numeros=[5,9,2];
+	v=0;
+	for(var i=0; i < numeros.length-1; i++)
+	{
+			for(var j=i+1; j < numeros.length; j++)
+			{
+				if(numeros[i] > numeros[j])
+				{
+					v=numeros[i];
+					numeroa[i]=numeros[j];
+					numeros[j]=v;
+				}									
+			}
+	}
+	for(i=0; i < numeros.length; i++)
+	{
+		document.write(numeros[i]+" ");
+	}
+		
+
+			
+
+		
+
+
+
+	</script>
+	
+</body>
+</html>
